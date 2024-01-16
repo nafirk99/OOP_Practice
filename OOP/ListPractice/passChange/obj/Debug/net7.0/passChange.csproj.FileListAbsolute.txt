@@ -1,0 +1,14 @@
+D:\Codes\ListPractice\passChange\bin\Debug\net7.0\passChange.exe
+D:\Codes\ListPractice\passChange\bin\Debug\net7.0\passChange.deps.json
+D:\Codes\ListPractice\passChange\bin\Debug\net7.0\passChange.runtimeconfig.json
+D:\Codes\ListPractice\passChange\bin\Debug\net7.0\passChange.dll
+D:\Codes\ListPractice\passChange\bin\Debug\net7.0\passChange.pdb
+D:\Codes\ListPractice\passChange\obj\Debug\net7.0\passChange.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\ListPractice\passChange\obj\Debug\net7.0\passChange.AssemblyInfoInputs.cache
+D:\Codes\ListPractice\passChange\obj\Debug\net7.0\passChange.AssemblyInfo.cs
+D:\Codes\ListPractice\passChange\obj\Debug\net7.0\passChange.csproj.CoreCompileInputs.cache
+D:\Codes\ListPractice\passChange\obj\Debug\net7.0\passChange.dll
+D:\Codes\ListPractice\passChange\obj\Debug\net7.0\refint\passChange.dll
+D:\Codes\ListPractice\passChange\obj\Debug\net7.0\passChange.pdb
+D:\Codes\ListPractice\passChange\obj\Debug\net7.0\passChange.genruntimeconfig.cache
+D:\Codes\ListPractice\passChange\obj\Debug\net7.0\ref\passChange.dll

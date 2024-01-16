@@ -1,0 +1,14 @@
+D:\Codes\FileSystem\FileSystem\bin\Debug\net7.0\FileSystem.exe
+D:\Codes\FileSystem\FileSystem\bin\Debug\net7.0\FileSystem.deps.json
+D:\Codes\FileSystem\FileSystem\bin\Debug\net7.0\FileSystem.runtimeconfig.json
+D:\Codes\FileSystem\FileSystem\bin\Debug\net7.0\FileSystem.dll
+D:\Codes\FileSystem\FileSystem\bin\Debug\net7.0\FileSystem.pdb
+D:\Codes\FileSystem\FileSystem\obj\Debug\net7.0\FileSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\FileSystem\FileSystem\obj\Debug\net7.0\FileSystem.AssemblyInfoInputs.cache
+D:\Codes\FileSystem\FileSystem\obj\Debug\net7.0\FileSystem.AssemblyInfo.cs
+D:\Codes\FileSystem\FileSystem\obj\Debug\net7.0\FileSystem.csproj.CoreCompileInputs.cache
+D:\Codes\FileSystem\FileSystem\obj\Debug\net7.0\FileSystem.dll
+D:\Codes\FileSystem\FileSystem\obj\Debug\net7.0\refint\FileSystem.dll
+D:\Codes\FileSystem\FileSystem\obj\Debug\net7.0\FileSystem.pdb
+D:\Codes\FileSystem\FileSystem\obj\Debug\net7.0\FileSystem.genruntimeconfig.cache
+D:\Codes\FileSystem\FileSystem\obj\Debug\net7.0\ref\FileSystem.dll

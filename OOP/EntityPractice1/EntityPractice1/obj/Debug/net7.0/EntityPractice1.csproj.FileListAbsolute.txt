@@ -1,0 +1,14 @@
+D:\Codes\EntityPractice1\EntityPractice1\bin\Debug\net7.0\EntityPractice1.exe
+D:\Codes\EntityPractice1\EntityPractice1\bin\Debug\net7.0\EntityPractice1.deps.json
+D:\Codes\EntityPractice1\EntityPractice1\bin\Debug\net7.0\EntityPractice1.runtimeconfig.json
+D:\Codes\EntityPractice1\EntityPractice1\bin\Debug\net7.0\EntityPractice1.dll
+D:\Codes\EntityPractice1\EntityPractice1\bin\Debug\net7.0\EntityPractice1.pdb
+D:\Codes\EntityPractice1\EntityPractice1\obj\Debug\net7.0\EntityPractice1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\EntityPractice1\EntityPractice1\obj\Debug\net7.0\EntityPractice1.AssemblyInfoInputs.cache
+D:\Codes\EntityPractice1\EntityPractice1\obj\Debug\net7.0\EntityPractice1.AssemblyInfo.cs
+D:\Codes\EntityPractice1\EntityPractice1\obj\Debug\net7.0\EntityPractice1.csproj.CoreCompileInputs.cache
+D:\Codes\EntityPractice1\EntityPractice1\obj\Debug\net7.0\EntityPractice1.dll
+D:\Codes\EntityPractice1\EntityPractice1\obj\Debug\net7.0\refint\EntityPractice1.dll
+D:\Codes\EntityPractice1\EntityPractice1\obj\Debug\net7.0\EntityPractice1.pdb
+D:\Codes\EntityPractice1\EntityPractice1\obj\Debug\net7.0\EntityPractice1.genruntimeconfig.cache
+D:\Codes\EntityPractice1\EntityPractice1\obj\Debug\net7.0\ref\EntityPractice1.dll

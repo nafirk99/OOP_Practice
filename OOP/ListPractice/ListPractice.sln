@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPractice", "ListPractice\ListPractice.csproj", "{6DF8D9E3-DFB4-4D27-93DF-C659E28F00CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "passChange", "passChange\passChange.csproj", "{8024B918-7C13-4C2F-B227-41E1C18C1205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DF8D9E3-DFB4-4D27-93DF-C659E28F00CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF8D9E3-DFB4-4D27-93DF-C659E28F00CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF8D9E3-DFB4-4D27-93DF-C659E28F00CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF8D9E3-DFB4-4D27-93DF-C659E28F00CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8024B918-7C13-4C2F-B227-41E1C18C1205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8024B918-7C13-4C2F-B227-41E1C18C1205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8024B918-7C13-4C2F-B227-41E1C18C1205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8024B918-7C13-4C2F-B227-41E1C18C1205}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27CD254B-339D-43E1-BD27-1C076DDDCD7E}
+	EndGlobalSection
+EndGlobal

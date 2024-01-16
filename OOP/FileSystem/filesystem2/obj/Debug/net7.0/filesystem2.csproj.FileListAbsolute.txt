@@ -1,0 +1,14 @@
+D:\Codes\FileSystem\filesystem2\bin\Debug\net7.0\filesystem2.exe
+D:\Codes\FileSystem\filesystem2\bin\Debug\net7.0\filesystem2.deps.json
+D:\Codes\FileSystem\filesystem2\bin\Debug\net7.0\filesystem2.runtimeconfig.json
+D:\Codes\FileSystem\filesystem2\bin\Debug\net7.0\filesystem2.dll
+D:\Codes\FileSystem\filesystem2\bin\Debug\net7.0\filesystem2.pdb
+D:\Codes\FileSystem\filesystem2\obj\Debug\net7.0\filesystem2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\FileSystem\filesystem2\obj\Debug\net7.0\filesystem2.AssemblyInfoInputs.cache
+D:\Codes\FileSystem\filesystem2\obj\Debug\net7.0\filesystem2.AssemblyInfo.cs
+D:\Codes\FileSystem\filesystem2\obj\Debug\net7.0\filesystem2.csproj.CoreCompileInputs.cache
+D:\Codes\FileSystem\filesystem2\obj\Debug\net7.0\filesystem2.dll
+D:\Codes\FileSystem\filesystem2\obj\Debug\net7.0\refint\filesystem2.dll
+D:\Codes\FileSystem\filesystem2\obj\Debug\net7.0\filesystem2.pdb
+D:\Codes\FileSystem\filesystem2\obj\Debug\net7.0\filesystem2.genruntimeconfig.cache
+D:\Codes\FileSystem\filesystem2\obj\Debug\net7.0\ref\filesystem2.dll

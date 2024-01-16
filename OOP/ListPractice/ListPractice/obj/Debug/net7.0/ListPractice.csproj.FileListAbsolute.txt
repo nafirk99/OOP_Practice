@@ -1,0 +1,14 @@
+D:\Codes\ListPractice\ListPractice\bin\Debug\net7.0\ListPractice.exe
+D:\Codes\ListPractice\ListPractice\bin\Debug\net7.0\ListPractice.deps.json
+D:\Codes\ListPractice\ListPractice\bin\Debug\net7.0\ListPractice.runtimeconfig.json
+D:\Codes\ListPractice\ListPractice\bin\Debug\net7.0\ListPractice.dll
+D:\Codes\ListPractice\ListPractice\bin\Debug\net7.0\ListPractice.pdb
+D:\Codes\ListPractice\ListPractice\obj\Debug\net7.0\ListPractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\ListPractice\ListPractice\obj\Debug\net7.0\ListPractice.AssemblyInfoInputs.cache
+D:\Codes\ListPractice\ListPractice\obj\Debug\net7.0\ListPractice.AssemblyInfo.cs
+D:\Codes\ListPractice\ListPractice\obj\Debug\net7.0\ListPractice.csproj.CoreCompileInputs.cache
+D:\Codes\ListPractice\ListPractice\obj\Debug\net7.0\ListPractice.dll
+D:\Codes\ListPractice\ListPractice\obj\Debug\net7.0\refint\ListPractice.dll
+D:\Codes\ListPractice\ListPractice\obj\Debug\net7.0\ListPractice.pdb
+D:\Codes\ListPractice\ListPractice\obj\Debug\net7.0\ListPractice.genruntimeconfig.cache
+D:\Codes\ListPractice\ListPractice\obj\Debug\net7.0\ref\ListPractice.dll
