@@ -1,0 +1,23 @@
+// Interface
+using System;
+
+interface ICalculate
+{
+	void circle(int a, int b);
+}
+
+public class golok : ICalculate
+{
+	public void circle(int a, int b)
+	{
+		Console.WriteLine("Hello World");
+	}
+}
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Hello World");
+	}
+}

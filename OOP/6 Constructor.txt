@@ -1,0 +1,55 @@
+// Constructor. , , 
+// ParameterLess Constructor
+// Parameterised Constructor
+// Default Constructor
+// Private Constructor. So we cannot create instance of that class
+// Static Constructor, it is called when we call a regular constructor
+using System;
+
+class test
+{
+	public string name;
+	public int age;
+	public test() // Parameterless Constructor
+	{
+		Console.WriteLine("From Parameterless Constructor");
+	}
+
+	public test(string a, int b) // Parameterized Constructor
+	{
+		this.name = a;
+		this.age = b;
+	}
+}
+
+public class T
+{
+	private T() // Private Constructor
+	{
+	}
+}
+
+public class P
+{
+	static P() // Static Constructor
+	{
+		Console.WriteLine("Static Constructor");
+	}
+
+	public P()
+	{
+		Console.WriteLine("Default Constructor");
+	}
+}
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Running...");
+		test tst = new test("Alan", 20);
+		Console.WriteLine($"Name:{tst.name} Age: {tst.age}");
+		P p = new P();
+	//T t = new T();   //ERROR Compilation error (line 38, col 13): 'T.T()' is inaccessible due to its protection level (Private Constructor)
+	}
+}

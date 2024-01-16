@@ -1,0 +1,27 @@
+// Constant-> const, This value should be same in the entire program
+// ReadOnly, It can only be accesed through 
+// C# program to illustrate the use 
+// of the readonly keyword
+using System;
+
+class GFG
+{
+	// readonly variables
+	public readonly int myvar1;
+	public readonly int myvar2;
+	// Values of the readonly 
+	// variables are assigned
+	// Using constructor
+	public GFG(int b, int c)
+	{
+		myvar1 = b;
+		myvar2 = c;
+		Console.WriteLine("Display value of myvar1 {0}, " + "and myvar2 {1}", myvar1, myvar2);
+	}
+
+	// Main method
+	static public void Main()
+	{
+	GFG obj1 = new GFG(100, 200);
+	}
+}

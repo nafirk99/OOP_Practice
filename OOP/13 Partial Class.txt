@@ -1,0 +1,26 @@
+// Partial Class
+using System;
+
+public partial class geeks
+{
+	public string name = "Anis";
+	public int age = 12;
+}
+
+public partial class geeks
+{
+	public void showinfo()
+	{
+		Console.WriteLine($"{name}{age}");
+	}
+}
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Hello World");
+		geeks geek = new geeks();
+		geek.showinfo();
+	}
+}

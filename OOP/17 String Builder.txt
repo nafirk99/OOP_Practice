@@ -1,0 +1,14 @@
+using System;
+using System.Text;
+
+public class Program
+{
+	public static void Main()
+	{
+		StringBuilder sb = new StringBuilder();
+		sb.Append("Hello ");
+		sb.AppendLine("World!");
+		sb.AppendLine("Hello C#");
+		Console.WriteLine(sb);
+	}
+}

@@ -1,0 +1,105 @@
+// Class Members, Fields, Property
+using System;
+
+public class vehicle
+{
+	public string brand; // Field
+	public string color; // Field
+	public int price; // Field
+	public void fullSpeed() // Method
+	{
+		Console.WriteLine("Top Speed");
+	}
+
+	public vehicle() // Default Constructor
+	{
+	}
+
+	public vehicle(string brand, string color, int price) // Declaring Constructor, to initialize
+	{
+		this.brand = brand;
+		this.color = color;
+		this.price = price;
+	}
+}
+
+// Property Example
+public class employee
+{
+	// All fields are private and secure, to access them we need Constructor and Property
+	private int age;
+	private string name;
+	private string email;
+	private string phone;
+	private string gender;
+	private int salary;
+	public employee() // Default Constructor
+	{
+	}
+
+	public employee(int age) // Constructor
+	{
+		this.age = age;
+	}
+
+	public int Age // Setting Up Property for age
+	{
+		get
+		{
+			return age;
+		}
+
+		set
+		{
+			if (value < 100 && value > 0)
+			{
+				this.age = value;
+			}
+			else
+			{
+				Console.WriteLine("Age must be between 0 and 100");
+			}
+		}
+	}
+
+	public string Name // Setting up property for name
+	{
+		get
+		{
+			return name;
+		}
+
+		set
+		{
+			if (value.Length < 10 && value.Length > 0)
+			{
+				this.name = value;
+			}
+			else
+			{
+				Console.WriteLine("Name Should Be under 10 characters long");
+			}
+		}
+	}
+}
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Running..........");
+		vehicle car1 = new vehicle();
+		car1.brand = "TOYOTA";
+		car1.color = " WHITE ";
+		car1.price = 8000;
+		Console.WriteLine($"{car1.brand} {car1.color}{car1.price}");
+		car1.fullSpeed();
+		vehicle car2 = new vehicle("AUDI", " RED ", 11000);
+		Console.WriteLine($"{car2.brand}{car2.color}{car2.price}");
+		employee emp1 = new employee();
+		emp1.Age = 50;
+		emp1.Name = "Arnold";
+		Console.WriteLine(emp1.Age);
+		Console.WriteLine(emp1.Name);
+	}
+}

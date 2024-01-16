@@ -1,0 +1,27 @@
+// C# program to illustrate the
+// use of Nullable type
+// This nullable type's main usage is 
+when we pass any parameter to Stored Procedure 
+or Database objects. If a column in a Table allows a Null value, 
+we should use the Nullable type in this case.
+
+using System;
+
+class GFG
+{
+	// Main Method
+	static public void Main()
+	{
+		// a is nullable type
+		// and contains null value
+		int? a = null;
+		// b is nullable type int
+		// and behave as a normal int
+		int? b = 2345;
+		// this will not print
+		// anything on console
+		Console.WriteLine(a);
+		// gives 2345 as output
+		Console.WriteLine(b);
+	}
+}

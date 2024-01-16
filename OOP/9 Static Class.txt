@@ -1,0 +1,24 @@
+// Static Class, Only has static member and static methods
+// We are not allowed to create object of this class
+using System;
+
+// Static Class
+public static class Author
+{
+	public static string firstName = "Ankita";
+	public static string lastName = "Dev";
+	public static int age = 36;
+	public static void Details()
+	{
+		Console.WriteLine($"{firstName} {lastName} {age}");
+	}
+}
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Hello World");
+		Author.Details();
+	}
+}

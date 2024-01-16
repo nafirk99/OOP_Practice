@@ -1,0 +1,78 @@
+// Auto Property
+using System;
+
+public class autopropertyExample
+{
+	private string name;
+	public string Name
+	{
+		get
+		{
+			return this.name;
+		}
+
+		set
+		{
+			this.name = value;
+		}
+	}
+}
+
+// But If we use auto property we can only write this line
+public class tuotoprop
+{
+	public string Name { get; set; }
+}
+
+public class examplee
+{
+	private string example;
+	public string Example
+	{
+		get
+		{
+			return this.example;
+		}
+
+		set
+		{
+			this.example = value;
+		}
+	}
+}
+
+// Instead we can write  only the property with setters and getters
+public class Examplee
+{
+	public string Example { get; set; }
+}
+
+public class Example2
+{
+	private string name;
+	private int age;
+	private string address;
+	private string phone;
+	private int salary;
+	private string nationality;
+	public string Name
+	{
+		get
+		{
+			return this.name;
+		}
+
+		set
+		{
+			this.name = value;
+		}
+	}
+}
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Running...");
+	}
+}

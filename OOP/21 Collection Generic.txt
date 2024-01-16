@@ -1,0 +1,63 @@
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+
+public class test<T>
+{
+	public T abc;
+}
+
+public class GFG<T>
+{
+	private T data;
+	public T Data
+	{
+		get
+		{
+			return this.data;
+		}
+
+		set
+		{
+			this.data = value;
+		}
+	}
+}
+
+public class genericFunction
+{
+	public void gFunc<T>(string a, T b)
+	{
+		Console.WriteLine($"String: {a}\tType: {b}");
+	}
+}
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Hello World");
+		List<int> a = new List<int>();
+		Collection<int> myColl = new Collection<int>();
+		test<int> tst = new test<int>();
+		tst.abc = 11;
+		Console.WriteLine(tst.abc);
+		GFG<int> gfg = new GFG<int>();
+		gfg.Data = 20;
+		Console.WriteLine(gfg.Data);
+		GFG<float> gfgf = new GFG<float>();
+		gfgf.Data = 2.3F;
+		Console.WriteLine(gfgf.Data);
+		GFG<decimal> g1 = new GFG<decimal>();
+		g1.Data = 50m;
+		Console.WriteLine(g1.Data);
+		GFG<string> g2 = new GFG<string>();
+		g2.Data = "Generic String Type Parameter";
+		Console.WriteLine(g2.Data);
+		genericFunction g3 = new genericFunction();
+		g3.gFunc<int>("Integer", 20);
+		g3.gFunc<float>("Float", 2.3f);
+		g3.gFunc<decimal>("Decimal", 20m);
+		g3.gFunc<string>("String", "ABCD");
+	}
+}

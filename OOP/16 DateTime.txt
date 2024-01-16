@@ -1,0 +1,14 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Hello World");
+		//assigns year, month, day
+		DateTime dt2 = new DateTime(2015, 12, 31);
+		DateTime dt;
+		dt = DateTime.Now;
+		Console.WriteLine(dt2);
+	}
+}

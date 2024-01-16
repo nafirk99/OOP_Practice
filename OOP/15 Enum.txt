@@ -1,0 +1,19 @@
+// Enum
+using System;
+
+enum Level
+{
+	Low,
+	Medium,
+	High
+}
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Hello World");
+		Level myVar = Level.High;
+		Console.WriteLine(myVar);
+	}
+}

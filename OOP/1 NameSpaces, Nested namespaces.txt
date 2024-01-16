@@ -1,0 +1,81 @@
+using System;
+using space1;
+using space2;
+using firstNamespace;
+using firstNamespace.secondSpace; // Nested Namespcace
+
+namespace space1
+{
+	public class sp1
+	{
+		public string a = "From space1 sp1";
+		public void func()
+		{
+			Console.WriteLine("Function From sp1");
+		}
+	}
+}
+
+namespace space2
+{
+	public class sp2
+	{
+		public string a = "From space2 sp2";
+		public void func2()
+		{
+			Console.WriteLine("Function From sp2");
+		}
+	}
+}
+
+// Nested Namespaces
+namespace firstNamespace
+{
+	public class cl
+	{
+		public string a = "firstNamespace> class cl";
+	}
+
+	namespace secondSpace
+	{
+		public class cl2
+		{
+			public string a = "firstNamespace> class cl2";
+		}
+	}
+}
+
+// Using a static function from nested namespace
+namespace fspace
+{
+	namespace fspace
+	{
+		public class fspace
+		{
+			public static void func()
+			{
+				Console.WriteLine("Nested Namespace static Function");
+			}
+		}
+	}
+}
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Running......");
+		//space1.sp1 sp = new space1.sp1();
+		sp1 sp = new sp1(); // Cuz we are using the namespace space1
+		Console.WriteLine(sp.a);
+		//space2.sp2 sp_2 = new space2.sp2();
+		sp2 sp_2 = new sp2(); // Cuz we are using the namespace space2
+		Console.WriteLine(sp_2.a);
+		sp.func();
+		sp_2.func2();
+		//firstNamespace.secondSpace.cl2 s = new firstNamespace.secondSpace.cl2();
+		cl2 s = new cl2(); // Cuz we are using the namespace firstNamespace and secondSpace
+		Console.WriteLine(s.a);
+		fspace.fspace.fspace.func();
+	}
+}

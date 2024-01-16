@@ -1,0 +1,65 @@
+using System;
+
+class Program
+{
+    public static void Swap(ref int x, ref int y)
+    {
+        int temp = x;
+        x = y;
+        y = temp;
+    }
+
+    static void Main()
+    {
+        int x = 10, y = 12;
+        Console.WriteLine("Before: x={0}, y={1}", x, y);
+        Swap(ref x, ref y);
+        Console.WriteLine("After: x={0}, y={1}", x, y);
+        Console.ReadKey();
+    }
+}
+-----------------------------------------------------------
+
+using System;
+
+class Program
+{
+    public static void Add(int x, int y, out int z)
+    {
+        z = x + y;
+    }
+
+    static void Main()
+    {
+        int x = 10, y = 12, z;
+        Add(x, y, out z);
+        Console.WriteLine("z = {0}", z);
+        Console.ReadKey();
+    }
+}
+-----------------------------------------------------------------
+using System;
+
+class Program
+{
+    public static void CallFun(params int[] arr)
+    {
+        for (int i = 0; i < arr.Length; i++)
+        {
+            Console.Write(arr[i]);
+            Console.Write(", ");
+        }
+    }
+
+    static void Main()
+    {
+        int[] x = new int[4] { 10, 12, 15, 17 };
+        int a = 20, b = 1988;
+
+        CallFun(x);
+        CallFun(a, b);
+
+        Console.ReadKey();
+    }
+}
+

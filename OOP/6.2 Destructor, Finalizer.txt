@@ -1,0 +1,42 @@
+// Destructors
+// Destructor is automatically called by Garbage Collector
+using System;
+
+public class test
+{
+	public string name;
+	public int age;
+	public test()
+	{
+		this.name = " ";
+		this.age = 0;
+	}
+
+	public void SetValue(string r, int i)
+	{
+		name = r;
+		age = i;
+	}
+
+	public void Display()
+	{
+		Console.WriteLine($"{name}{age}");
+	}
+
+	// Destructor
+	~test()
+	{
+		Console.WriteLine("Destructor Was Called");
+	}
+}
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Running...");
+		test tst = new test();
+		tst.SetValue("Nafi", 20);
+		tst.Display();
+	}
+}

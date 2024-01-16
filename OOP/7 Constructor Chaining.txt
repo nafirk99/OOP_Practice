@@ -1,0 +1,32 @@
+// Constructor Chaining
+using System;
+
+public class MySampleClass
+{
+	// Constructor 1: no parameter constructor method
+	public MySampleClass()
+	{
+	// First Constructor
+	}
+
+	// Constructor 2: constructor with one parameter
+	public MySampleClass(int Age)
+	{
+	// Second Constructor
+	}
+
+	// Constructor 3: constructor with two parameters
+	public MySampleClass(int Age, String Name)
+	{
+	// Third Constructor
+	}
+// Rest of the class members go here.
+}
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Running...");
+	}
+}
