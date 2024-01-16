@@ -1,0 +1,49 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+      Console.WriteLine(cars[0]);
+      
+      int[] ages = {22, 33, 44, 55};
+      Console.WriteLine(ages[3]);
+      
+      string[] names = 
+      {
+      "Alan",
+      "Namor",
+      "Paul",
+      "Smith"
+      };
+      Console.WriteLine(names[0] + names[1]);
+      
+      bool[] a = { false, true, false , true };
+      
+      a[3] = false;
+      Console.WriteLine(a[0]);
+      Console.WriteLine(a[1]);
+      Console.WriteLine(a[2]);
+      Console.WriteLine(a[3]);
+      
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+      cars[0] = "Opel";
+   // Console.WriteLine(cars[0]);
+      Console.WriteLine(cars[0]);
+      Console.WriteLine(cars[1]);
+      Console.WriteLine(cars[2]);
+      Console.WriteLine(cars[3]);
+      
+      Console.WriteLine("Size of cars: " + cars.Length);
+      //making an array of 4 elements
+      string[] test = new string[4];
+      
+      //Making an array of 4 elements and adding the values right away
+      string[] test1 = new string[4] { "a", "b", "c", "d" };
+      Console.WriteLine(test1[2]);
+      
+      //Creating an array without specifying the size
+      string[] test2 = new string[] {"a", "b", "c", "d" };
+      Console.WriteLine("Size of test2: " + test2.Length);
+      
+      //Creating an array without new keyword and size
+      int[] test3 = {1,2,3,4,5,6,6,7};
+      Console.WriteLine("Size of test3: " + test3.Length);
+      
+      //Making an empty array
+      int[] t = new int[]{ };     
+      Console.WriteLine(t.Length);
+      
+    }
+  }
+}
